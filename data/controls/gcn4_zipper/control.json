@@ -1,0 +1,10 @@
+{
+  "id": "gcn4_zipper",
+  "name": "GCN4 leucine zipper",
+  "pdb_id": "2ZTA",
+  "chain": "A",
+  "paired_seeds": [
+    "type1_hplc6"
+  ],
+  "sequence": "RMKQLEDKVEELLSKNYHLENEVARLKKLVG"
+}

@@ -1,0 +1,68 @@
+{
+  "params": {
+    "max_mutations": 8,
+    "rng_seed": 1,
+    "temperature": 1.0,
+    "near_ibs_angstrom": 5.0,
+    "backend": "real",
+    "evaluate": false,
+    "n_candidates": 20
+  },
+  "thresholds": {
+    "plddt_min": 80.0,
+    "rmsd_max": 2.0
+  },
+  "versions": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scipy": "1.17.1",
+    "Bio": "1.88",
+    "transformers": "5.19.0",
+    "torch": "2.6.0+cu124",
+    "streamlit": "1.65.0",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 3050",
+    "gpu_vram_gb": 6.0,
+    "backend": "real",
+    "esm_model": null,
+    "structure_model": null,
+    "afp": "0.1.0"
+  },
+  "seeds": {
+    "tmafp_beetle": {
+      "n_generated": 20,
+      "n_ok_qc": 20,
+      "n_pass": 20,
+      "pass_rate": 1.0,
+      "plddt_mean_median": 93.50104429663679,
+      "rmsd_median": 0.7591182567516022,
+      "seconds": 318,
+      "exit_code": 0,
+      "run": "20261012-182406-tmafp_beetle-5d325a"
+    },
+    "type1_hplc6": {
+      "n_generated": 20,
+      "n_ok_qc": 20,
+      "n_pass": 19,
+      "pass_rate": 0.95,
+      "plddt_mean_median": 96.29420440261428,
+      "rmsd_median": 1.0891604514612512,
+      "seconds": 93,
+      "exit_code": 0,
+      "run": "20261012-182924-type1_hplc6-f35f8b"
+    },
+    "type3_hplc12": {
+      "n_generated": 20,
+      "n_ok_qc": 20,
+      "n_pass": 13,
+      "pass_rate": 0.65,
+      "plddt_mean_median": 91.7035329992121,
+      "rmsd_median": 1.0913251955188004,
+      "seconds": 208,
+      "exit_code": 0,
+      "run": "20261012-183057-type3_hplc12-5adc3d"
+    }
+  }
+}

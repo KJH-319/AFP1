@@ -1,0 +1,16 @@
+[project]
+name = "afp-designer"
+version = "0.1.0"
+description = "Antifreeze protein (AFP) design and ranking app for lab-internal use"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = [
+    "unit: fast tests without GPU or model weights",
+    "integration: end-to-end with mock model backends",
+    "gpu: tests that load real ESM-2 / ESMFold weights",
+    "regression: baseline comparisons on fixed seeds (slow, real models)",
+]
+addopts = "-m 'not gpu and not regression'"

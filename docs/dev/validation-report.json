@@ -1,0 +1,167 @@
+{
+  "settings": {
+    "n_patches": 100,
+    "rng_seed": 1,
+    "structure": "experimental",
+    "controls": [
+      "bpti",
+      "gcn4_zipper",
+      "ubiquitin"
+    ],
+    "top_fraction": 0.9,
+    "min_metrics_pass": 2,
+    "direction": {
+      "ibs_planarity": -1,
+      "ibs_lattice_dev": -1,
+      "ibs_area": 1,
+      "ibs_hydrophobic_frac": 0
+    }
+  },
+  "seeds": [
+    {
+      "seed_id": "tmafp_beetle",
+      "evidence_level": "literature_partial",
+      "ibs_size": 9,
+      "metrics": {
+        "ibs_planarity": {
+          "x_seed": 0.08871681406707053,
+          "own_median": 2.094889289835228,
+          "control_median": 2.571714540082898,
+          "better_than_own_patches": 1.0,
+          "better_than_control_patches": 1.0,
+          "reverse_better_than_control_patches": 0.0
+        },
+        "ibs_area": {
+          "x_seed": 468.9830837167441,
+          "own_median": 596.2526652107008,
+          "control_median": 835.4408441038923,
+          "better_than_own_patches": 0.01,
+          "better_than_control_patches": 0.01,
+          "reverse_better_than_control_patches": 0.99
+        },
+        "ibs_lattice_dev": {
+          "x_seed": 0.3273104827680074,
+          "own_median": 0.5246305128013468,
+          "control_median": 0.5659892453346851,
+          "better_than_own_patches": 0.97,
+          "better_than_control_patches": 0.8745762711864407,
+          "reverse_better_than_control_patches": 0.12542372881355932
+        },
+        "ibs_hydrophobic_frac": {
+          "x_seed": 0.0,
+          "own_median": 0.1111111111111111,
+          "control_median": 0.2222222222222222,
+          "better_than_own_patches": NaN,
+          "better_than_control_patches": NaN,
+          "reverse_better_than_control_patches": NaN
+        }
+      },
+      "hits": [
+        "ibs_planarity"
+      ],
+      "passed": false,
+      "hits_either_direction": [
+        "ibs_planarity",
+        "ibs_area"
+      ]
+    },
+    {
+      "seed_id": "type1_hplc6",
+      "evidence_level": "derived",
+      "ibs_size": 4,
+      "metrics": {
+        "ibs_planarity": {
+          "x_seed": 0.1126371484476494,
+          "own_median": 1.5674301594399849,
+          "control_median": 1.0230860719361838,
+          "better_than_own_patches": 1.0,
+          "better_than_control_patches": 0.9333333333333333,
+          "reverse_better_than_control_patches": 0.06666666666666667
+        },
+        "ibs_area": {
+          "x_seed": 421.29081697000976,
+          "own_median": 289.7030723913968,
+          "control_median": 378.9948010924935,
+          "better_than_own_patches": 0.94,
+          "better_than_control_patches": 0.6933333333333334,
+          "reverse_better_than_control_patches": 0.30666666666666664
+        },
+        "ibs_lattice_dev": {
+          "x_seed": NaN,
+          "own_median": 0.7207935128246632,
+          "control_median": 0.5487317064812082,
+          "better_than_own_patches": NaN,
+          "better_than_control_patches": NaN,
+          "reverse_better_than_control_patches": NaN
+        },
+        "ibs_hydrophobic_frac": {
+          "x_seed": 0.0,
+          "own_median": 0.75,
+          "control_median": 0.25,
+          "better_than_own_patches": NaN,
+          "better_than_control_patches": NaN,
+          "reverse_better_than_control_patches": NaN
+        }
+      },
+      "hits": [
+        "ibs_planarity"
+      ],
+      "passed": false,
+      "hits_either_direction": [
+        "ibs_planarity"
+      ]
+    },
+    {
+      "seed_id": "type3_hplc12",
+      "evidence_level": "literature",
+      "ibs_size": 5,
+      "metrics": {
+        "ibs_planarity": {
+          "x_seed": 0.7784421542401909,
+          "own_median": 1.145729720359191,
+          "control_median": 1.5501698677796303,
+          "better_than_own_patches": 0.76,
+          "better_than_control_patches": 0.9066666666666666,
+          "reverse_better_than_control_patches": 0.09333333333333334
+        },
+        "ibs_area": {
+          "x_seed": 316.1549809417281,
+          "own_median": 402.1817026634314,
+          "control_median": 463.541424267311,
+          "better_than_own_patches": 0.12,
+          "better_than_control_patches": 0.03333333333333333,
+          "reverse_better_than_control_patches": 0.9666666666666667
+        },
+        "ibs_lattice_dev": {
+          "x_seed": 0.4296626500759815,
+          "own_median": 0.637601454253432,
+          "control_median": 0.5954225503354902,
+          "better_than_own_patches": 0.6,
+          "better_than_control_patches": 0.777292576419214,
+          "reverse_better_than_control_patches": 0.22270742358078602
+        },
+        "ibs_hydrophobic_frac": {
+          "x_seed": 0.0,
+          "own_median": 0.4,
+          "control_median": 0.2,
+          "better_than_own_patches": NaN,
+          "better_than_control_patches": NaN,
+          "reverse_better_than_control_patches": NaN
+        }
+      },
+      "hits": [
+        "ibs_planarity"
+      ],
+      "passed": false,
+      "hits_either_direction": [
+        "ibs_planarity",
+        "ibs_area"
+      ]
+    }
+  ],
+  "summary": {
+    "verdict": "불합격",
+    "seeds_passed": 0,
+    "seeds_total": 3
+  }
+}

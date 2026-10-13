@@ -1,0 +1,29 @@
+{
+  "id": "tmafp_beetle",
+  "name": "TmAFP (Tenebrio molitor, beta-helix)",
+  "afp_type": "insect_beta_helix",
+  "pdb_id": "1EZG",
+  "chain": "A",
+  "residue_offset": 1,
+  "ibs_residues": [
+    16,
+    26,
+    28,
+    38,
+    40,
+    50,
+    52,
+    62,
+    64
+  ],
+  "ibs_evidence_level": "literature_partial",
+  "ibs_evidence": [
+    "PMC5991737 (AFP의 TIP4P/Ice 시뮬레이션) Table 1: TmAFP의 IBS Thr 변이 대상 T16, T26, T28, T38, T40, T50, T52, T62, T64",
+    "같은 논문: TmAFP IBS는 Thr 11개로 이루어지며 전체 목록은 본문에 없음 (이 9개는 그중 일부)",
+    "Liou et al. 2000, Nature 406:322 (1EZG, 1.4 A): TCT 모티프가 평평한 β-시트 얼음 결합면을 이룸"
+  ],
+  "notes": "IBS Thr 11개 중 9개만 문헌에서 확인했다. 나머지 2개는 번호를 확인하지 못해 제외했다.",
+  "sequence": "QCTGGADCTSCTGACTGCGNCPNAVTCTNSQHCVKANTCTGSTDCNTAQTCTNSKDCFEANTCTDSTNCYKATACTNSSGCP",
+  "structure_source": "experimental",
+  "uniprot": ""
+}

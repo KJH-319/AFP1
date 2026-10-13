@@ -1,0 +1,10 @@
+{
+  "id": "bpti",
+  "name": "BPTI (aprotinin)",
+  "pdb_id": "5PTI",
+  "chain": "A",
+  "paired_seeds": [
+    "tmafp_beetle"
+  ],
+  "sequence": "RPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGA"
+}

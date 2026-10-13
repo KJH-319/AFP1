@@ -1,0 +1,25 @@
+{
+  "id": "type3_hplc12",
+  "name": "Type III AFP (HPLC-12, ocean pout)",
+  "afp_type": "type3",
+  "pdb_id": "1HG7",
+  "chain": "A",
+  "residue_offset": 1000,
+  "ibs_residues": [
+    9,
+    14,
+    15,
+    18,
+    44
+  ],
+  "ibs_evidence_level": "literature",
+  "ibs_evidence": [
+    "Sonnichsen et al. 1996, Structure 4:1325-1337 (RCSB 1KDE 초록): 추정 얼음 결합 잔기 Gln9, Asn14, Thr15, Thr18, Gln44",
+    "구조 서열에서 Q9, N14, T15, T18, Q44를 확인함 (문헌 번호 = 1HG7 PDB 번호 - 1000)",
+    "구조 출처: Antson et al. 2001, J Mol Biol 305:875 (1HG7, 1.15 A)"
+  ],
+  "notes": "Type III 복합 IBS(프리즘/피라미드 면)의 일부만 포함한 핵심 잔기 집합이다. A16, L19, V20, V41 등은 확인한 출처가 없어 넣지 않았다.",
+  "sequence": "MNQASVVANQLIPINTALTLVMMRSEVVTPVGIPAEDIPRLVSMQVNRAVPLGTTLMPDMVKGYAA",
+  "structure_source": "experimental",
+  "uniprot": ""
+}

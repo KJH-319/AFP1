@@ -1,0 +1,23 @@
+{
+  "id": "type1_hplc6",
+  "name": "Type I AFP (HPLC-6, winter flounder)",
+  "afp_type": "type1",
+  "pdb_id": "1WFA",
+  "chain": "A",
+  "residue_offset": 0,
+  "ibs_residues": [
+    2,
+    13,
+    24,
+    35
+  ],
+  "ibs_evidence_level": "derived",
+  "ibs_evidence": [
+    "Sicheri & Yang 1995, Nature 375:427-431 (1WFA): 반복되는 얼음 결합 모티프 4개가 평평한 결합면을 이룸",
+    "잔기 번호는 서열의 11잔기 주기 Thr(T2, T13, T24, T35)에서 유도했다. 열어본 출처에서 번호를 직접 확인하지는 못했다"
+  ],
+  "notes": "근거 수준 derived: 번호가 문헌으로 확인되지 않았다. 전문가 확인 후 literature로 올린다.",
+  "sequence": "DTASDAAAAAALTAANAKAAAELTAANAAAAAAATAR",
+  "structure_source": "experimental",
+  "uniprot": ""
+}

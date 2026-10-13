@@ -1,0 +1,10 @@
+{
+  "id": "ubiquitin",
+  "name": "Ubiquitin",
+  "pdb_id": "1UBQ",
+  "chain": "A",
+  "paired_seeds": [
+    "type3_hplc12"
+  ],
+  "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
+}
